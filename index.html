@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -12,12 +12,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <title>Landing Page</title>
   </head>
   <body>
     <header>
       <nav id="navbar">
-        <i class="fa-solid fa-burger" id="nav_logo">Food</i>
+        <i class="fa-solid fa-burger" id="nav_logo"> Food</i>
 
         <ul id="nav_list">
           <li class="nav-item active">
@@ -54,5 +60,44 @@
         <button class="btn-default">Peça aqui</button>
       </div>
     </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">O sabor vai até <span>Você</span></h1>
+
+          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio veniam </p>
+
+          <div id="cta_buttons">
+            <a href="" class="btn-default">Ver cardápio</a>
+            <a href="tell:+555555555" id="phone_button">
+              <button class="btn-default"><i class="fa-solid fa-phone"></i>(51) 99122-2233</button>
+            </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+                        <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+                        <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+
+          <img src="assets/img/19fa0a2b-a63e-400e-972c-e6f386e3750b.jpeg" alt="">
+
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
